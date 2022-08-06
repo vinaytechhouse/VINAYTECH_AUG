@@ -1,3 +1,4 @@
+Today Live Practice Session For Small Project
 Data:	
 	Anything you are able to store is called data.
 	We have three types of data 
@@ -10,7 +11,7 @@ Data:
 	c) Unstructured data:
 			Social media [facebook,twitter, insta...]
 			Docs [pdf, word doc...]
-			Satellite Signals
+			Satellite Signals, Robotic Process Instructions
 			etc...
 Data Handling IT applications:
 	Two types
