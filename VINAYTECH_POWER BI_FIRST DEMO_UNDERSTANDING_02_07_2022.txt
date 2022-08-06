@@ -1,0 +1,154 @@
+Data:	
+	Anything you are able to store is called data.
+	We have three types of data 
+	a) Structured Data: Data in the form of tables / sheets [column by column format]
+			Ex: Excel Data, Table Data...
+	b) Semi-Structured data: Data not fully structured.
+			Ex: Log info, Event Viewer, Audit info...
+
+			Text files, JSON Files, XML files etc.
+	c) Unstructured data:
+			Social media [facebook,twitter, insta...]
+			Docs [pdf, word doc...]
+			Satellite Signals
+			etc...
+Data Handling IT applications:
+	Two types
+	a) Business running applications and store [OLTP: Online Transaction Processing]
+		
+		Ex: Irctc, Bookmyshow...
+
+		You booked a train ticket( Web, Desktop, Apps)..structured application...
+		Data storage structured
+		PNR NO, no of passengers, start station, end station, amount,etc. [Databases]
+		12313,2,hyd,mum,4500
+		23131,che,kol, 9000
+		Transaction successful / Failed
+
+	b) Business analysis applications and report[OLAP: Online Analytical Processing]
+
+		Which train having highest demand?
+		Which region having good demand of trains?
+		Trains having full booking in first 3 minutes..
+
+		Note: This data also called as "Decision Making Data/Analytical Data / BI Data"
+
+		Normal Data-------BI Process--------> Decision Making / BI Data
+
+		Data--> Extract-->Transform-->Load--> Storage->Meaningful data[with aggregates]-->Present [reports
+			and dashboards] in visuals--> BI Data
+
+
+		Visual: Which displays data / data+graphical object
+		Report:
+			Set of visuals [any type]
+			Defined for single individual operation [Cash withdraw report, Cash Deposit report]
+			More data and more visuals 
+		Dashboard:
+			Set of visuals [simple and cute]: KPI visuals [Key Performance Indicator]
+			Designed for a subject area operation[multiple individuals reports information]
+			Ex: Savings account deposits, withdrawals etc... single area
+			
+	BI: Business Intelligence: Intelligence to the business. Decision Making to the business.
+	
+		1990's approach and tools : Legay process
+		Multiple tools, setups, resources required.
+
+		2000-2010: MSBI and Few more companies given end-end BI implementation in multiple tools / processes.
+
+		MSBI: [First BI from Microsoft]
+			Microsoft Business Intelligence / SQL Server Business Intelligence
+			Announced: 2005
+			Market Leader: 2008 onwards
+			Versions: 2005, 2008, 2008 R2, 2012, 2014, 2016, 2017,2019,2022
+		
+		Why Power BI? Why the name is Power BI?
+			MSBI Drawbacks:
+			a) Semi-unstructured data handling is less [not available]
+			b) Not cloud friendly 
+			c) Not mobile friendly 
+			d) Bigdata / Data Science / AI no support
+			etc...
+
+		Power BI:
+			"Powering BI"
+			"Adding Power to BI"
+			
+			a) Semi-unstructured data handling is possible 
+			b) Full cloud friendly 
+			c) Full mobile friendly 
+			d) Bigdata / Data Science / AI support
+			e) Embedding possible [you can keep PBI reports / dashboards in facebook, twitter etc...]
+					Websites / Blogs / Portal
+			f) End-End BI Process in single application [Power BI Desktop]
+				Desktop: Set of graphical operations performing area
+			etc...
+
+
+			Announced: July 2013
+			Versions: No versions, we have monthly updates
+			Monthly updates:
+				a) To capture market
+				b) To integrate / add / enhance support according to the changing IT environment
+
+				July 2013-July-2022 
+
+
+Power BI Leader?
+		https://powerbi.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2022-gartner-magic-quadrant-for-analytics-and-bi-platforms/
+
+		https://powerbi.microsoft.com/en-my/blog/microsoft-named-a-leader-in-the-forrester-wave-augmented-bi-platforms-q3-2021/
+
+03-07-2022
+--------------
+	MSBI -On-premise component: A suite with 3 major tools to perform end-end operations  [Latest support cloud]
+		On-Premise Data Engineering + On-Premise Reporting possible
+	
+	Power BI: 
+		Cloud and On-Premise end-end BI Operations supportive service / applications.
+		Note: We don't have Data Engineering
+
+	Azure BI: This name not available, if you work on couple of BI components in the azure, then it is Azure BI.
+		Mostly for Data Engineering 
+		a) Data Extract, Transform, Load [ ADF: Azure Data Factory]
+		b) Data Storage [ Synapse / Snow Flake / Data Lake / Databricks etc.]
+		c) Data Manage and Analysis: Synapse Analytics...
+		etc.		
+		Note: No reporting in Azure, hence we need to go for Power BI.
+
+
+	Current Real-time Projects:
+
+	a) New and specific subject are data applications using Power BI for end-end BI operations
+	b) Existing BI Projects using Power BI for Reporting only.
+		MSBI+Power BI
+		Azure BI+Power BI
+		Informatica +Power BI
+		Datastage+ Power BI
+
+
+Current task:
+		Objective: How easily we can convert normal data into decision making data using Power Bi Desktop
+		a) Download and install Power BI Desktop
+		b) I will extract business data
+		c) I will transform business data [as it is not column by column]
+		d) I will go for visualization [visuals in the report]
+		e) Saving the Power BI Desktop Document [.pbix]
+		Note: In the end-end process we are not doing modeling today
+		         Store, manage, and share to customers also not showing...[Service, Server]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
